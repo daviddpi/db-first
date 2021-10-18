@@ -1,0 +1,20 @@
+nome tabella: "Concessionario"
+
+id(PRIMARY_KEY[indice]) - intero - MEDIUMINT - AUTOINCREMENT
+
+nome_auto - stringa - VARCHAR(50) - NOTNULL
+modello_macchina - stringa - VARCHAR(30) - NOTNULL
+marca_macchina - stringa - VARCHAR(20) - NOTNULL
+tipo_di_combustibile - stringa - VARCHAR(10) - NOTNULL
+targa - stringa - stringa - VARCHAR(7) - NOTNULL
+km_percorsi - intero - MEDIUMINT - NULL
+anno_di_immatricolazione - data - YEAR - NOTNULL
+numero_porte - intero - TINYINT - NOTNULL
+massa_del_veicolo - intero - TINYINT - NOTNULL
+cilindrata - intero - TINYINT - NOTNULL
+potenza_veicolo - intero - TINYINT - NOTNULL
+numero_posti - intero - TINYINT - NOTNULL
+nome_del_costruttore - stringa - VARCHAR(60) - NOTNULL
+numero_di_telaio - stringa - VARCHAR(17) - NOTNULL
+
+
